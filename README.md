@@ -1,8 +1,10 @@
 ﻿# Building a custom CLI tool
 
-In today's CI/CD pipelines there is a lot of stuff going on. We run commands, scripts and prebuild jobs that combined add to the complexity in understanding what is going on, especially in the case of debugging. An approach to simplify pipeline configuration can be to build a custom CLI tool that you build to run certain application specific tasks, like kicking of an integration test or bootstrapping certain components in our topology (API Call, DB Init). An additional benefit of having a CLI for your solution specifically is that it also can be used on the dev box and overtime you might find yourself updating the CLI to handle repetetive tasks (like kicking off a batch of API calls to test your updates). 
+In today's CI/CD pipelines there is a lot of stuff going on. We run commands, scripts and pre-build jobs that combined add to the complexity in understanding what is going on, especially in the case of debugging. An approach to simplify pipeline configuration can be to build a custom CLI tool that you build to run certain application specific tasks, like kicking off an integration test or bootstrapping certain components in our topology (API Call, DB Init). 
 
-Having a custom CLI potentially can be a nice addition for your endusers to manage configuration and admin tasks very easily. It is very likely you have come to respect and appreciate a couple of these CLI tools already (like Azure's 'AZ' CLI), so why not build one yourself? 
+An additional benefit of having a CLI for your solution specifically is that it also can be used on the dev box and overtime you might find yourself updating the CLI to handle repetitive or cumbersome tasks, like kicking off a batch of API calls to test your updates. 
+
+Having a custom CLI potentially can be a nice addition for your end users to manage configuration and admin tasks very easily. It is very likely you have come to respect and appreciate a couple of these CLI tools already (like Azure's 'AZ' CLI), so why not build one yourself? 
 
 ## Getting Started
 
