@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CliSample": {
+      "commandName": "Project",
+      "commandLineArgs": "do this arg1 arg2"
+    }
+  }
+}
